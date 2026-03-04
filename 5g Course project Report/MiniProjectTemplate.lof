@@ -1,0 +1,13 @@
+\contentsline {figure}{\numberline {1}{\ignorespaces Admission ratio comparison across all methods at $U = 300$.}}{8}{figure.caption.10}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Average latency comparison across all methods at $U = 300$.}}{8}{figure.caption.11}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Average energy consumption comparison across all methods at $U = 300$.}}{9}{figure.caption.12}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Objective function value comparison across all methods at $U = 300$.}}{9}{figure.caption.13}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Performance summary table at $U = 300$ users.}}{10}{figure.caption.14}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Cumulative distribution function of per-user latency.}}{11}{figure.caption.15}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Pareto tradeoff between average latency and energy per method.}}{12}{figure.caption.16}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Computational scalability: solve time vs number of users.}}{13}{figure.caption.17}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Admission ratio vs number of users.}}{14}{figure.caption.18}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Average energy consumption vs number of users.}}{14}{figure.caption.19}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Average latency vs number of users.}}{15}{figure.caption.20}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Per-slice admission distribution heatmap by method.}}{16}{figure.caption.21}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Metric-wise comparison with Lin et al.\ (IEEE TVT, 2023).}}{18}{figure.caption.23}%

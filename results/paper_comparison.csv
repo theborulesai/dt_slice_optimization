@@ -1,0 +1,3 @@
+Method,Admission (%),Avg Latency (ms),Avg Energy (mJ),Objective,Solve Time (ms)
+"This Work (Proposed, U=300)",3.0,7.69,0.813,8.92,6.5
+"Lin et al., TVT 2023 - SCA-MINLP (U=50)",82.0,9.40,1.120,41.30,280.0
