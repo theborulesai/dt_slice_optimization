@@ -1,0 +1,45 @@
+# Config for DT-Slice Co-Optimization experiment
+
+experiment:
+  name: "Energy-Latency DT-Slice Co-Optimization"
+  description: "Compare proposed two-stage solver against baselines"
+
+# Network setup
+network:
+  users: 15
+  slices: 3
+  dt_servers: 3
+
+# Optimization weights
+weights:
+  lambda_T: 1.0    # latency penalty
+  lambda_E: 1.0    # energy penalty
+
+# Random seeds for reproducibility
+seeds: [42, 43, 44, 45, 46]
+
+# User sweep settings
+sweep_users:
+  enabled: true
+  user_counts: [5, 10, 15, 20, 25, 30]
+
+# Lambda sweep for Pareto analysis
+sweep_pareto:
+  enabled: true
+  lambda_T_values: [0.1, 0.5, 1.0, 2.0, 5.0, 10.0]
+  lambda_E_values: [0.1, 0.5, 1.0, 2.0, 5.0, 10.0]
+
+# Scalability test
+scalability:
+  enabled: true
+  user_counts: [5, 10, 15, 20, 30, 40, 50, 75, 100]
+
+# Sensitivity analysis
+sensitivity:
+  enabled: true
+  perturbation: 0.3
+
+# Output directories
+output:
+  results_dir: "results"
+  figures_dir: "results/figures"

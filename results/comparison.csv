@@ -1,0 +1,7 @@
+solver,admitted,objective,avg_latency_ms,avg_energy_mJ,total_latency_ms,total_energy_mJ,feasible,solve_time_s
+proposed_two_stage,3,2.987674,3.7749,0.3337,11.3248,1.0012,True,0.0031
+random,3,2.967393,10.1096,0.7593,30.3288,2.2779,False,0.0015
+greedy_latency,4,3.972786,6.0439,0.7596,24.1757,3.0384,False,0.0024
+greedy_energy,4,3.905536,22.8564,0.7596,91.4255,3.0384,False,0.0025
+latency_only,3,2.988207,3.931,0.3123,11.7931,0.9368,True,0.0027
+energy_only,3,2.998999,3.7749,0.3337,11.3248,1.0012,True,0.0025
